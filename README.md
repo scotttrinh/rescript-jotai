@@ -1,4 +1,10 @@
-# rescript-jotai
+# @scotttrinh/rescript-jotai
+
+Fork of fattafatta/rescript-jotai
+
+## Why fork?
+
+The ReScript ecosystem is in flux right now as React@18 and ReScript@10 are slowly making their way across the ecosystem. Instead of introducing these rather big changes upstream now, I'm maintaining a fork to allow the ecosystem to catch up so that the changes needed are a much smaller delta.
 
 [ReScript](https://rescript-lang.org/) bindings for [Jotai](https://github.com/pmndrs/jotai). Primitive and flexible state management for React.
 
@@ -7,19 +13,19 @@
 Install with `npm`:
 
 ```bash
-npm install jotai @fattafatta/rescript-jotai
+npm install jotai @scotttrinh/rescript-jotai
 ```
 
 Or install with `yarn`:
 
 ```bash
-yarn add jotai @fattafatta/rescript-jotai
+yarn add jotai @scotttrinh/rescript-jotai
 ```
 
-Add `@fattafatta/rescript-jotai` as a dependency to your `bsconfig.json`:
+Add `@scotttrinh/rescript-jotai` as a dependency to your `bsconfig.json`:
 
 ```json
-"bs-dependencies": ["@rescript/react", "@fattafatta/rescript-jotai"]
+"bs-dependencies": ["@rescript/react", "@scotttrinh/rescript-jotai"]
 ```
 
 ## Usage
